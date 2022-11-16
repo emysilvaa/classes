@@ -7,12 +7,15 @@ class Cadastro:
     def login(self, nome, email, senha):
         if self.nome != nome:
             print('seu nome de usuario está errado')
-        if self.email != email:
+        elif self.email != email:
             print('seu endereço de email está errado')
-        if self.senha != senha:
+        elif self.senha != senha:
             print('sua senha está incorreta')
         else:
             print('seu login está correto, bem-vindo a twitch')
+
+pedro = Cadastro('pedro', 'pedrodograu@', '0107')
+pedro.login('Pedro', 'pedrodograu@', '0107')
 
 
             
