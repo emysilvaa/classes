@@ -13,3 +13,5 @@ class Cadastro:
             print('sua senha está incorreta')
         else:
             print('seu login está correto, bem-vindo a twitch')
+
+        
