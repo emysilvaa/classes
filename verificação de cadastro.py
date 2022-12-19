@@ -15,3 +15,8 @@ class Cadastro:
             print('seu login está correto, bem-vindo a twitch')
 
         
+
+
+
+
+        
